@@ -1,0 +1,21 @@
+export JUNOTOP=/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0
+pushd $JUNOTOP >& /dev/null
+# external libraries
+source bashrc.sh 
+pushd ExternalInterface/EIRelease/cmt/ >& /dev/null
+source setup.sh
+popd
+# sniper
+pushd sniper/SniperRelease/cmt/ >& /dev/null
+source setup.sh
+popd
+# offline
+popd >& /dev/null
+export JUNO_OFFLINE_OFF=1 #local
+#export WORKTOP=/junofs/production/public/users/zhangfy/test
+#export WORKTOP=/junofs/production/public/users/zhangfy/test/
+#
+export CMTPROJECTPATH=${WORKTOP}:${CMTPROJECTPATH}
+
+#source $JUNOTOP/offline/Examples/Tutorial/cmt/setup.sh
+#source /junofs/production/public/users/zhangfy/J17v1r1_work/offline/Examples/Tutorial/cmt/setup.sh

@@ -1,0 +1,51 @@
+###############################################################################
+#                                                                             #
+# gamma_1000.mac                                                              #
+# Gamma spectrum from internal calibrator                                     #
+# output in file hits.out                                                     #
+#                                                                             #
+###############################################################################
+#
+# verbosities
+/control/verbose 0
+/run/verbose 0
+/tracking/verbose 1
+/hits/verbose 1
+/b1/printModulo 10
+#
+# draw flags
+/b1/draw/drawColours standard
+/b1/draw/drawTracks none
+/b1/draw/drawHits 0
+#
+# file output
+/b1/savePmt  0
+/b1/saveHits 1
+#
+# gun: particle
+/b1/gun/verbose 0
+/b1/gun/particle gamma
+/b1/gun/energytype Mono
+/b1/gun/energy 60.0 keV
+#
+# gun: isotropic
+/b1/gun/angtype iso
+#
+# OR gun: shoot up
+#/b1/gun/angtype direction
+#/b1/gun/direction 0 0 1
+#
+# gun: source
+/b1/gun/type Volume
+/b1/gun/shape Cylinder
+/b1/gun/radius 250 um
+/b1/gun/halfz 10.0 nm
+/b1/gun/centre 0 0 -302.65 mm
+/b1/gun/confine americium_phys
+#
+/b1/hitsfile gamma_1000.out
+/b1/pmtfile gamma_1000_pmt.out
+/b1/histogramfile gamma_1000
+
+/run/beamOn 1000
+
