@@ -181,6 +181,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleChange.icc
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleDefinition.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleDefinition.icc
+ /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleGun.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleMomentum.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleTable.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleTable.icc
@@ -325,6 +326,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPhysicalVolume.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPhysicalVolume.icc
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPhysicsConstructor.hh
+ /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPrimaryGenerator.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VProcess.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VRML1File.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VRML2File.hh
@@ -346,6 +348,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VUserDetectorConstruction.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VUserEventInformation.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VUserPhysicsList.hh
+ /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VUserPrimaryGeneratorAction.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VUserTrackInformation.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VViewer.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VViewer.icc
@@ -482,62 +485,11 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/tools/wroot/wbuf
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/trajectoryControl.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/trkdefs.hh
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/Bytes.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/Byteswap.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/Compression.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/DllImport.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ESTLType.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/RConfigure.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/RConcurrentHashColl.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/RConfig.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/RSpan.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/RStringView.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/RWrap_libcpp_string_view.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/TRWSpinLock.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/TSpinMutex.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/TypeTraits.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/libcpp_string_view.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ROOT/span.hxx
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/RVersion.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/Rtypes.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/RtypesCore.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TBuffer.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TClass.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TCollection.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TDataType.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TDatime.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TDictionary.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TDirectory.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TDirectoryFile.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TFile.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TGenericClassInfo.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/THashTable.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TIsAProxy.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TIterator.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TList.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TMap.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TMathBase.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TNamed.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TObjArray.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TObjString.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TObject.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TSchemaHelper.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TSeqCollection.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TStorage.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TString.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TUUID.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TUrl.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TVersionCheck.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TVirtualIsAProxy.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TVirtualMutex.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/TVirtualRWMutex.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/ThreadLocalStorage.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/snprintf.h
- /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include/strlcpy.h
  /junofs/production/public/users/zhangfy/juno_like/B1/exampleB1.cc
  /junofs/production/public/users/zhangfy/juno_like/B1/include/B1ActionInitialization.hh
  /junofs/production/public/users/zhangfy/juno_like/B1/include/B1DetectorConstruction.hh
  /junofs/production/public/users/zhangfy/juno_like/B1/include/B1PhysicsList.hh
+ /junofs/production/public/users/zhangfy/juno_like/B1/include/B1PrimaryGeneratorAction.hh
 CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/CLHEP/Units/SystemOfUnits.h
@@ -2645,6 +2597,8 @@ CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4GRSVolume.icc
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4GeomSplitter.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4HCofThisEvent.hh
+ /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4HEPEvtInterface.hh
+ /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4HEPEvtParticle.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4IonisParamElm.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4IonisParamMat.hh
  /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Isotope.hh

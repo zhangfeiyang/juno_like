@@ -37,7 +37,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include"
   "/junofs/production/public/users/zhangfy/juno_like/B1/include"
   "/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4"
   )

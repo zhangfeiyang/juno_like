@@ -6,5 +6,5 @@ CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-stri
 
 CXX_DEFINES = -DG4INTY_USE_XT -DG4LIB_BUILD_DLL -DG4MULTITHREADED -DG4UI_USE -DG4UI_USE_TCSH -DG4VERBOSE -DG4VIS_USE -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DG4_STORE_TRAJECTORY
 
-CXX_INCLUDES = -I/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/include -I/junofs/production/public/users/zhangfy/juno_like/B1/include -isystem /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4 
+CXX_INCLUDES = -I/junofs/production/public/users/zhangfy/juno_like/B1/include -isystem /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4 
 

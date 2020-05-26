@@ -47,6 +47,10 @@
 
 #include <TFile.h>
 #include "g4root.hh"
+
+#include "G4VUserPrimaryGeneratorAction.hh"
+#include "B1PrimaryGeneratorAction.hh"
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 int main(int argc,char** argv)
@@ -61,6 +65,7 @@ int main(int argc,char** argv)
 
   // Choose the Random engine
   G4Random::setTheEngine(new CLHEP::RanecuEngine);
+	char* filename = "proton_hepevt";
   
   // Construct the default run manager
   //
@@ -80,7 +85,9 @@ int main(int argc,char** argv)
   //physicsList->SetVerboseLevel(1);
   //runManager->SetUserInitialization(physicsList);
   runManager->SetUserInitialization(new B1PhysicsList);
-    
+
+  //B1PrimaryGeneratorAction* gen_action = new  B1PrimaryGeneratorAction(filename);
+  //runManager->SetUserAction(gen_action);
   // User action initialization
   runManager->SetUserInitialization(new B1ActionInitialization());
   

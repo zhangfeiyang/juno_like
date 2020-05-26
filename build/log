@@ -53,18 +53,18 @@ End of Run User Vis Actions: none
 Some /vis commands (optionally) take a string to specify colour.
 "/vis/list" to see available colours.
 hahahah
-/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5
-@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic
-@@@ G4ParticleHPInelasticData instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5
-NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
-NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
-NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/8_17_Oxygen
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic
+@@@ G4ParticleHPInelasticData instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/8_17_Oxygen
 
 ### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
           DefaultRegionForTheWorld  1  1  1
@@ -295,22 +295,22 @@ muPairProd:  for mu-  SubType=4
       Sampling table 9x1001; from 1 GeV to 0.1 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
           muPairProd : Emin=    0 eV  Emax=  100 GeV
-NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
-NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
-NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/8_17_Oxygen
-NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
-NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
-@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic
-NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Elastic/CrossSection/8_17_Oxygen
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Inelastic
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-branch/ExternalLibs/Geant4/10.05.p01/share/Geant4-10.5.1/data/G4NDL4.5/Capture/CrossSection/8_17_Oxygen
 
 msc:  for pi+  SubType= 10
       RangeFactor= 0.2, stepLimType: 0, latDisp: 0
@@ -525,7 +525,7 @@ hBrems:  for pi-  SubType=3
      Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
 
 ================================================================
-G4WT1 > 
+G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : GeomMgt1001
       issued by : G4LogicalVolumeStore::GetVolume()
@@ -537,47 +537,11 @@ Volume NOT found in store !
 
 G4WT0 > 
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomMgt1001
-      issued by : G4LogicalVolumeStore::GetVolume()
-Volume NOT found in store !
-        Volume Envelope NOT found in store !
-        Returning NULL pointer.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
 *** G4Exception : MyCode0002
       issued by : B1PrimaryGeneratorAction::GeneratePrimaries()
 Envelope volume of box shape not found.
 Perhaps you have changed geometry.
 The gun will be place at the center.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT0 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : MyCode0002
-      issued by : B1PrimaryGeneratorAction::GeneratePrimaries()
-Envelope volume of box shape not found.
-Perhaps you have changed geometry.
-The gun will be place at the center.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > Feiyang, the verbose is 0
-Feiyang2
-pmtCollID is 	0
-hello HCE
-hello PHC
-nhits is 1258
-
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomMgt1001
-      issued by : G4LogicalVolumeStore::GetVolume()
-Volume NOT found in store !
-        Volume Envelope NOT found in store !
-        Returning NULL pointer.
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
@@ -588,32 +552,24 @@ hello HCE
 hello PHC
 nhits is 1325
 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : GeomMgt1001
-      issued by : G4LogicalVolumeStore::GetVolume()
-Volume NOT found in store !
-        Volume Envelope NOT found in store !
-        Returning NULL pointer.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : MyCode0002
-      issued by : B1PrimaryGeneratorAction::GeneratePrimaries()
-Envelope volume of box shape not found.
-Perhaps you have changed geometry.
-The gun will be place at the center.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
+G4WT0 > --------------------End of Local Run------------------------
+G4WT0 >  The run consists of 1 gamma of 1 MeV
+G4WT0 >  Cumulated dose per run, in scoring volume : 8.1775e-09 picoGy  rms = 0 picoGy 
+G4WT0 > ------------------------------------------------------------
 G4WT0 > 
+
+--------------------End of Global Run-----------------------
+ The run consists of 1 
+ Cumulated dose per run, in scoring volume : 8.1775e-09 picoGy  rms = 0 picoGy 
+------------------------------------------------------------
+
+
 -------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : MyCode0002
-      issued by : B1PrimaryGeneratorAction::GeneratePrimaries()
-Envelope volume of box shape not found.
-Perhaps you have changed geometry.
-The gun will be place at the center.
+*** G4Exception : Analysis_W021
+      issued by : G4XmlAnalysisManager::CloseFile()
+      Removing file .root failed
 *** This is just a warning message. ***
 -------- WWWW -------- G4Exception-END --------- WWWW -------
 
+Graphics systems deleted.
+Visualization Manager deleting...

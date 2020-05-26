@@ -1,21 +1,28 @@
-export JUNOTOP=/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0
-pushd $JUNOTOP >& /dev/null
-# external libraries
-source bashrc.sh 
-pushd ExternalInterface/EIRelease/cmt/ >& /dev/null
-source setup.sh
-popd
-# sniper
-pushd sniper/SniperRelease/cmt/ >& /dev/null
-source setup.sh
-popd
-# offline
-popd >& /dev/null
-export JUNO_OFFLINE_OFF=1 #local
-#export WORKTOP=/junofs/production/public/users/zhangfy/test
-#export WORKTOP=/junofs/production/public/users/zhangfy/test/
-#
-export CMTPROJECTPATH=${WORKTOP}:${CMTPROJECTPATH}
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/bashrc
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/ROOT/6.20.02/bashrc
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Cmake/3.17.0/bashrc
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/contrib/gcc/8.3.0/bashrc
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/tbb/2019_U8/bashrc
+source /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/sqlite3/3.29.0/bashrc
 
-#source $JUNOTOP/offline/Examples/Tutorial/cmt/setup.sh
-#source /junofs/production/public/users/zhangfy/J17v1r1_work/offline/Examples/Tutorial/cmt/setup.sh
+#export JUNOTOP=/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0
+#pushd $JUNOTOP >& /dev/null
+## external libraries
+#source bashrc.sh 
+#pushd ExternalInterface/EIRelease/cmt/ >& /dev/null
+#source setup.sh
+#popd
+## sniper
+#pushd sniper/SniperRelease/cmt/ >& /dev/null
+#source setup.sh
+#popd
+## offline
+#popd >& /dev/null
+#export JUNO_OFFLINE_OFF=1 #local
+##export WORKTOP=/junofs/production/public/users/zhangfy/test
+##export WORKTOP=/junofs/production/public/users/zhangfy/test/
+##
+#export CMTPROJECTPATH=${WORKTOP}:${CMTPROJECTPATH}
+#
+##source $JUNOTOP/offline/Examples/Tutorial/cmt/setup.sh
+##source /junofs/production/public/users/zhangfy/J17v1r1_work/offline/Examples/Tutorial/cmt/setup.sh

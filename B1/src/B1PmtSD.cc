@@ -54,11 +54,11 @@
 
 
 B1PmtSD::B1PmtSD(G4String name) 
-  :G4VSensitiveDetector(name) {
+	:G4VSensitiveDetector(name) {
 
-  G4String HCname="pmtCollection";
-  collectionName.insert(HCname);
-}
+		G4String HCname="pmtCollection";
+		collectionName.insert(HCname);
+	}
 
 
 B1PmtSD::~B1PmtSD() {;}
@@ -67,10 +67,10 @@ B1PmtSD::~B1PmtSD() {;}
 ////////////////////////////////////////////////////////////////////////////
 void B1PmtSD::Initialize(G4HCofThisEvent*) {
 
-  pmtCollection = new B1PmtHitsCollection
-    (SensitiveDetectorName,collectionName[0]); 
+	pmtCollection = new B1PmtHitsCollection
+		(SensitiveDetectorName,collectionName[0]); 
 
-  HitID = -1;
+	HitID = -1;
 
 
 }
@@ -79,20 +79,20 @@ void B1PmtSD::Initialize(G4HCofThisEvent*) {
 
 ////////////////////////////////////////////////////////////////////////////
 G4bool B1PmtSD::ProcessHits
-  (G4Step* aStep, G4TouchableHistory*){
+(G4Step* aStep, G4TouchableHistory*){
 
-  if(G4UniformRand()>0.3){
-    return false;
-  }
+	if(G4UniformRand()>0.3){
+		return false;
+	}
 
-  // make known hit position
-  B1PmtHit* aPmtHit = new B1PmtHit();
-  aPmtHit->SetPos(aStep->GetPostStepPoint()->GetPosition());
-  aPmtHit->SetTime(aStep->GetPostStepPoint()->GetGlobalTime());
-  HitID = pmtCollection->insert(aPmtHit);
+	// make known hit position
+	B1PmtHit* aPmtHit = new B1PmtHit();
+	aPmtHit->SetPos(aStep->GetPostStepPoint()->GetPosition());
+	aPmtHit->SetTime(aStep->GetPostStepPoint()->GetGlobalTime());
+	HitID = pmtCollection->insert(aPmtHit);
 
-  return true;
- 
+	return true;
+
 }
 
 
@@ -100,21 +100,21 @@ G4bool B1PmtSD::ProcessHits
 ////////////////////////////////////////////////////////////////////////////
 void B1PmtSD::EndOfEvent(G4HCofThisEvent* HCE) {
 
-  G4String HCname = collectionName[0];
+	G4String HCname = collectionName[0];
 
-  G4cout << "Feiyang, the verbose is " << verboseLevel << "\n";
+	G4cout << "Feiyang, the verbose is " << verboseLevel << "\n";
 
-  static G4int HCID = -1;
-  if(HCID<0)
-    HCID = G4SDManager::GetSDMpointer()->GetCollectionID(HCname);
-  HCE->AddHitsCollection(HCID,pmtCollection);
-  
-  G4int nHits = pmtCollection->entries();
-  if (verboseLevel>=1) {
-    G4cout << "     PMT collection: " << nHits << " hits" << G4endl;
-    if (verboseLevel>=2)
-      pmtCollection->PrintAllHits();
-  }
+	static G4int HCID = -1;
+	if(HCID<0)
+		HCID = G4SDManager::GetSDMpointer()->GetCollectionID(HCname);
+	HCE->AddHitsCollection(HCID,pmtCollection);
+
+	G4int nHits = pmtCollection->entries();
+	if (verboseLevel>=2) {
+		G4cout << "     PMT collection: " << nHits << " hits" << G4endl;
+		if (verboseLevel>=2)
+			pmtCollection->PrintAllHits();
+	}
 
 
 }

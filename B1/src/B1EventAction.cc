@@ -36,6 +36,10 @@
 #include "G4SDManager.hh"
 #include "B1PmtHit.hh"
 #include "g4root.hh"
+#include <iostream>
+#include "G4ThreeVector.hh"
+
+using namespace std;
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -79,9 +83,6 @@ void B1EventAction::EndOfEventAction(const G4Event* evt)
 {   
   // accumulate statistics in run action
 
-  G4cout << "Feiyang2\n";
-  G4cout << "pmtCollID is \t" << pmtCollID << "\n";
-
   G4AnalysisManager* man = G4AnalysisManager::Instance();
 
   B1PmtHitsCollection*   PHC = NULL;
@@ -94,9 +95,17 @@ void B1EventAction::EndOfEventAction(const G4Event* evt)
   int P_hits = 0;
   if(PHC) {
     P_hits = PHC->entries();
-    G4cout << "hello PHC\n";
+		ofstream fout("data.out",ios::app);
+		fout << P_hits << "\n";
+		for(int i=0;i<P_hits;i++){
+			double time = (*PHC)[i]->GetTime();
+			G4ThreeVector pos = (*PHC)[i]->GetPos();
+			double posX = pos.getX();
+			double posY = pos.getY();
+			double posZ = pos.getZ();
+			fout << posX << "\t" << posY << "\t" << posZ << "\t" << time << "\n";
+		}	
   }
-  G4cout << "nhits is " << P_hits << "\n";
   fRunAction->AddEdep(fEdep);
 }
 
