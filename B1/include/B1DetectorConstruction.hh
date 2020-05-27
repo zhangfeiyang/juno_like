@@ -65,6 +65,7 @@ class B1DetectorConstruction : public G4VUserDetectorConstruction
     G4Material* Photocathode_mat_Ham20inch;
     G4Material* Acrylic;
     G4Material* vetoWater;
+		G4Material* Pyrex;
 
 };
 

@@ -121,12 +121,12 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 	double r4t = 78* mm;
 	double r2t = 47*mm;
 	double r3t = 50*mm;
-	double r1zt = 184;
+	double r1zt = 182*mm;
 	double h1t = 176*mm;
 	double h2t = 42*mm;
 	double h3t = 120*mm;
 	double delta_torlerance = 0.01*mm;
-	double m_H_1_2 = 219;
+	double m_H_1_2 = 219*mm;
 
 	G4String solidname = "R12860";
 
@@ -190,6 +190,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 				-(m_H_1_2+h3t*0.50))
 			);
 
+	//logicPMT = new G4LogicalVolume(pmttube_solid_1_2_3,Pyrex,"lPMT");
 	logicPMT = new G4LogicalVolume(pmttube_solid_1_2_3,Photocathode_mat_Ham20inch,"lPMT");
 
 
@@ -197,9 +198,8 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
 		G4RotationMatrix rot;
 
-		rot.rotateX(rx[i]);
-		rot.rotateY(ry[i]);
-		rot.rotateZ(rz[i]);
+		rot.rotateY(ry[i]*deg);
+		rot.rotateZ(rz[i]*deg);
 
 		G4ThreeVector pos(x[i],y[i],z[i]);
 		G4Transform3D trans(rot,pos);
@@ -224,7 +224,6 @@ void B1DetectorConstruction::ConstructSDandField(){
 	G4SDManager::GetSDMpointer()->AddNewDetector(pmtSD.Get());
 	if(logicPMT){
 		SetSensitiveDetector(logicPMT,pmtSD.Get());
-		G4cout << "hahahah\n";
 	}
 
 }
@@ -238,6 +237,10 @@ void  B1DetectorConstruction::DefineMaterials()
 		GdLSABSLength[i] *= 77./26;	
 	}
 	
+	for(int i=0;i<11;i++){
+		GdLSRayLength[i] *= 27./46;
+	}
+	
 	//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 	G4Element* H = new G4Element("Hydrogen", "H" , 1., 1.01*g/mole);
 	G4Element* C = new G4Element("Carbon", "C" , 6., 12.01*g/mole);
@@ -245,6 +248,10 @@ void  B1DetectorConstruction::DefineMaterials()
 	G4Element* N = new G4Element("Nitrogen", "N", 7., 14.01*g/mole);
 	G4Element* S = new G4Element("Sulfur", "S", 16., 32.066*g/mole);
 	G4Element* K = new G4Element("Potassium", "K", 19., 39.0983*g/mole);
+	G4Element* Si = new G4Element("Silicon", "Si", 14., 28.09*g/mole);
+	G4Element* Na= new G4Element("Sodium", "Na", 11., 22.98977*g/mole);
+	G4Element* B = new G4Element("Boron",  "B", 5, 10.811*g/mole);
+	
 	LS  = new G4Material("LS", 0.859*g/cm3, 5);
 	LS->AddElement(C,  0.87924);
 	LS->AddElement(H,  0.1201);
@@ -324,15 +331,39 @@ void  B1DetectorConstruction::DefineMaterials()
         vetoWater->SetMaterialPropertiesTable(vetoWaterMPT);
 		
 	// Photocathode_mat
+        double density = 2.23*g/cm3;
+        G4Material* SiO2 = new G4Material("SiO2", density, 2);
+        SiO2->AddElement(Si, 1);
+        SiO2->AddElement(O , 2);
+		    G4Material* B2O2 = new G4Material("B2O2", density, 2);
+        B2O2->AddElement(B,  2);
+        B2O2->AddElement(O,  2);
+        G4Material* Na2O = new G4Material("Na2O", density, 2);
+        Na2O->AddElement(Na, 2);
+        Na2O->AddElement(O,  1);
 	
+        Pyrex = new G4Material("Pyrex", density, 3);
+        Pyrex->AddMaterial(SiO2, .80);
+        Pyrex->AddMaterial(B2O2, .13);
+        Pyrex->AddMaterial(Na2O, .07);
+        G4MaterialPropertiesTable* PyrexMPT = new G4MaterialPropertiesTable();
+        PyrexMPT->AddProperty("RINDEX", fPP_Pyrex, fPyrexRINDEX, 6);
+        PyrexMPT->AddProperty("ABSLENGTH", fPP_PyrexABS, fPyrexABSORPTION, 9);
+        Pyrex->SetMaterialPropertiesTable(PyrexMPT);
+
         Photocathode_mat_Ham20inch = new G4Material("photocathode_Ham20inch",5.*g/cm3,1);
         Photocathode_mat_Ham20inch->AddElement(K, 1);
         G4MaterialPropertiesTable* PhotocathodeMPT_Ham20inch = new G4MaterialPropertiesTable();
         PhotocathodeMPT_Ham20inch->AddProperty("RINDEX", fPP_PhC, fPhCRINDEX, 4);
         PhotocathodeMPT_Ham20inch->AddProperty("KINDEX", fPP_PhC, fPhCKINDEX, 4);
         PhotocathodeMPT_Ham20inch->AddProperty("REFLECTIVITY", fPP_PhC, fPhCREFLECTIVITY, 4);
+				PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_1inch_20140620, fPhCEFFICIENCY_1inch_20140620, 43);
         //PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_Ham20inch, fPhCEFFICIENCY_Ham20inch, 43);
         //PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_Dynode20inch, fPhCEFFICIENCY_Dynode20inch, 43);
+				double PhotocathodeMPTAbsEnergy[2] = {1*eV,15*eV};
+				double PhotocathodeMPTAbsLength[2] = {0.01,0.02};
+				//
+				PhotocathodeMPT_Ham20inch->AddProperty("ABSLENGTH", PhotocathodeMPTAbsEnergy,PhotocathodeMPTAbsLength, 2);
         PhotocathodeMPT_Ham20inch->AddProperty("THICKNESS", fPosZ, fTHICKNESS, 2);
         Photocathode_mat_Ham20inch->SetMaterialPropertiesTable(PhotocathodeMPT_Ham20inch);
 	

@@ -2086,6 +2086,8 @@
   double fPyrexRINDEX[6] = {1.458, 1.458, 1.458, 1.458, 1.458, 1.458};
   double fPyrexABSORPTION[9] = {0.1e-3*mm, 0.5e3*mm, 1.0e3*mm, 2.0e3*mm, 1.0e3*mm, // 0.1e-3*mm, 0.1e-3*mm};
                                 1.0e3*mm, 1.0e3*mm, 1.0e3*mm, 1.0e3*mm};
+  //double fPyrexABSORPTION[9] = {0.1e-3*mm, 1.0e-3*mm, 1.0e-3*mm, 1.0e-3*mm, 1.0e-3*mm, // 0.1e-3*mm, 0.1e-3*mm}; // modified by ZhangFeiyang
+  //                              1.0e-3*mm, 1.0e-3*mm, 1.0e-3*mm, 1.0e-3*mm};																		 //
 
   double fPP_PhC[4] = {1.55*eV, 6.20*eV, 10.33*eV, 15.5*eV};
   double fPP_PhCQE[39] = {1.55000*eV, 1.80000*eV, 1.90000*eV, 2.00000*eV, 2.05000*eV, 2.16000*eV, 2.1900*eV,
