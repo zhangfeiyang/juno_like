@@ -96,14 +96,14 @@ void B1EventAction::EndOfEventAction(const G4Event* evt)
     P_hits = PHC->entries();
 		ofstream fout("data.out",ios::app);
 		fout << P_hits << "\n";
-		//for(int i=0;i<P_hits;i++){
-		//	double time = (*PHC)[i]->GetTime();
-		//	G4ThreeVector pos = (*PHC)[i]->GetPos();
-		//	double posX = pos.getX();
-		//	double posY = pos.getY();
-		//	double posZ = pos.getZ();
-		//	fout << posX << "\t" << posY << "\t" << posZ << "\t" << time << "\n";
-		//}	
+		for(int i=0;i<P_hits;i++){
+			double time = (*PHC)[i]->GetTime();
+			G4ThreeVector pos = (*PHC)[i]->GetPos();
+			double posX = pos.getX();
+			double posY = pos.getY();
+			double posZ = pos.getZ();
+			fout << posX << "\t" << posY << "\t" << posZ << "\t" << time << "\n";
+		}	
 		fout.close();
   }
   fRunAction->AddEdep(fEdep);
