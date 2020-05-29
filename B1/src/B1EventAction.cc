@@ -102,7 +102,8 @@ void B1EventAction::EndOfEventAction(const G4Event* evt)
 			double posX = pos.getX();
 			double posY = pos.getY();
 			double posZ = pos.getZ();
-			fout << posX << "\t" << posY << "\t" << posZ << "\t" << time << "\n";
+			bool iscerenkov = (*PHC)[i]->IsFromCerenkov();
+			fout << posX << "\t" << posY << "\t" << posZ << "\t" << time << "\t" << iscerenkov << "\n";
 		}	
 		fout.close();
   }

@@ -57,6 +57,9 @@ B1PmtHit::B1PmtHit() {
   
   pos = G4ThreeVector(0., 0., 0.);
   time=0.;
+  isFromCerenkov = false;
+  isReemission = false;
+
 
 }
 

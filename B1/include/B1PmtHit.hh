@@ -68,7 +68,8 @@ class B1PmtHit : public G4VHit
   private:
      G4ThreeVector pos;
      G4double time;
-
+		 G4bool isFromCerenkov;
+     G4bool isReemission;
 
   public:
      inline void SetPos(G4ThreeVector xyz)       {pos=xyz;};
@@ -77,7 +78,11 @@ class B1PmtHit : public G4VHit
      inline void SetTime(G4double t)             {time=t;};
      inline G4double GetTime()                   const {return time;};
 
+    G4bool IsFromCerenkov() const { return isFromCerenkov;}
+    void SetFromCerenkov(G4bool flag) { isFromCerenkov = flag; }
 
+    G4bool IsReemission() const { return isReemission;}
+    void SetReemission(G4bool flag) { isReemission = flag; }
 };
 
 

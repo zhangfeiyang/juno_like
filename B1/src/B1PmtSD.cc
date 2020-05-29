@@ -51,6 +51,7 @@
 #include "G4UImanager.hh"
 #include "G4ios.hh"
 #include "Randomize.hh"
+#include "G4VProcess.hh"
 
 
 B1PmtSD::B1PmtSD(G4String name) 
@@ -90,6 +91,23 @@ G4bool B1PmtSD::ProcessHits
 	aPmtHit->SetPos(aStep->GetPostStepPoint()->GetPosition());
 	aPmtHit->SetTime(aStep->GetPostStepPoint()->GetGlobalTime());
 	HitID = pmtCollection->insert(aPmtHit);
+
+	G4Track* track = aStep->GetTrack();
+	
+	bool isCerenkov = false;
+	const G4VProcess *process = track->GetCreatorProcess();
+	if(process and process->GetProcessName() == "Cerenkov"){
+		isCerenkov = true;
+	}
+  aPmtHit->SetFromCerenkov(isCerenkov);
+	bool isReemission = false;
+	if(process and track->GetDefinition()->GetParticleName() == "opticalphoton"
+		and track->GetDefinition()->GetParticleName() == "opticalphoton"
+		and process->GetProcessName() == "Scintillation"){
+		isReemission = true;
+	}
+	
+	aPmtHit->SetReemission(isReemission); 
 
 	return true;
 

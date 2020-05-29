@@ -1709,6 +1709,7 @@ CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd6
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Cache.hh
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4CacheDetails.hh
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4CascadeInterface.hh
+CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Cerenkov.hh
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ChargedGeantino.hh
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ChipsAntiBaryonElasticXS.hh
 CMakeFiles/exampleB1.dir/src/B1PhysicsList.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ChipsAntiBaryonInelasticXS.hh
@@ -2394,6 +2395,9 @@ CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc8
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Exception.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ExceptionSeverity.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Exp.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4FastVector.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ForceCondition.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4GPILSelection.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4GeomSplitter.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4HCofThisEvent.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4HCtable.hh
@@ -2420,14 +2424,19 @@ CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc8
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4NavigationLevelRep.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4OrderedTable.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PDefManager.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleChange.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleChange.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleDefinition.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleDefinition.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ParticleMomentum.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsModelCatalog.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsOrderedFreeVector.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsTable.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsTable.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsVector.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsVector.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4PhysicsVectorType.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ProcessType.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4ReferenceCountedHandle.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Region.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Region.icc
@@ -2452,6 +2461,7 @@ CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc8
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4TouchableHistory.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Track.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Track.icc
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4TrackFastVector.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4TrackStatus.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4TrackVector.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4Transform3D.hh
@@ -2461,8 +2471,11 @@ CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc8
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VExceptionHandler.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VHit.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VHitsCollection.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VParticleChange.hh
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VParticleChange.icc
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPhysicalVolume.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VPhysicalVolume.icc
+CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VProcess.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VReadOutGeometry.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VSDFilter.hh
 CMakeFiles/exampleB1.dir/src/B1PmtSD.cc.o: /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc830/Pre-Release/J20v1r1-Pre0/ExternalLibs/Geant4/10.05.p01/include/Geant4/G4VSensitiveDetector.hh
