@@ -237,7 +237,8 @@
 
   double component[2] = {-1, 1};
   //double GdLSLY[2] = {10129/MeV, 10129/MeV};
-  double GdLSLY[2] = {11522/MeV, 11522/MeV};
+  //double GdLSLY[2] = {11522/MeV, 11522/MeV};
+  double GdLSLY[2] = {0.1/MeV, 0.1/MeV};
   double GdLSResolutionScale[2] = {1.0, 1.0};
   double GdLSFastTimeConstant[2] = {4.93*ns, 4.93*ns};
   double GdLSSlowTimeConstant[2] = {20.6*ns, 20.6*ns};

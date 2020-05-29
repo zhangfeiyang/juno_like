@@ -78,8 +78,8 @@ B1PhysicsList::B1PhysicsList() : G4VUserPhysicsList()
 				defaultCutValue     = 1.0*micrometer; //
 				cutForGamma         = defaultCutValue;
 				//cutForElectron      = 1.0*nanometer;
-				cutForElectron      = defaultCutValue;
-				cutForPositron      = defaultCutValue;
+				cutForElectron      = 0.1*defaultCutValue;
+				cutForPositron      = 0.1*defaultCutValue;
 
 				VerboseLevel = 0;
 				OpVerbLevel = 0;
@@ -125,20 +125,24 @@ void B1PhysicsList::ConstructMyBosons()
 
 }
 
-
+#include "G4LeptonConstructor.hh"
 // construct Leptons://///////////////////////////////////////////////////
 void B1PhysicsList::ConstructMyLeptons()
 {
 				// leptons
-				G4Electron::ElectronDefinition();
-				G4Positron::PositronDefinition();
-				G4MuonPlus::MuonPlusDefinition();
-				G4MuonMinus::MuonMinusDefinition();
+				
+        G4LeptonConstructor con;
+        con.ConstructParticle();
+				
+				//G4Electron::ElectronDefinition();
+				//G4Positron::PositronDefinition();
+				//G4MuonPlus::MuonPlusDefinition();
+				//G4MuonMinus::MuonMinusDefinition();
 
-				G4NeutrinoE::NeutrinoEDefinition();
-				G4AntiNeutrinoE::AntiNeutrinoEDefinition();
-				G4NeutrinoMu::NeutrinoMuDefinition();
-				G4AntiNeutrinoMu::AntiNeutrinoMuDefinition();
+				//G4NeutrinoE::NeutrinoEDefinition();
+				//G4AntiNeutrinoE::AntiNeutrinoEDefinition();
+				//G4NeutrinoMu::NeutrinoMuDefinition();
+				//G4AntiNeutrinoMu::AntiNeutrinoMuDefinition();
 }
 
 

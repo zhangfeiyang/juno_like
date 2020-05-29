@@ -265,7 +265,7 @@ void  B1DetectorConstruction::DefineMaterials()
 	LSMPT->AddProperty("ABSLENGTH", GdLSABSEnergy, GdLSABSLength, 502);
 	LSMPT->AddProperty("FASTCOMPONENT", GdLSComEnergy, GdLSFastComponent, 275);
 	LSMPT->AddProperty("SLOWCOMPONENT", GdLSComEnergy, GdLSFastComponent, 275);
-	LSMPT->AddProperty("REEMISSIONPROB", GdLSReemEnergy, GdLSReem, 28);
+	//LSMPT->AddProperty("REEMISSIONPROB", GdLSReemEnergy, GdLSReem, 28);
 	LSMPT->AddProperty("RAYLEIGH", GdLSRayEnergy, GdLSRayLength, 11);
 	LSMPT->AddProperty("SCINTILLATIONYIELD", component, GdLSLY,2);
 	LSMPT->AddProperty("RESOLUTIONSCALE", component, GdLSResolutionScale,2);
@@ -357,7 +357,7 @@ void  B1DetectorConstruction::DefineMaterials()
         PhotocathodeMPT_Ham20inch->AddProperty("RINDEX", fPP_PhC, fPhCRINDEX, 4);
         PhotocathodeMPT_Ham20inch->AddProperty("KINDEX", fPP_PhC, fPhCKINDEX, 4);
         PhotocathodeMPT_Ham20inch->AddProperty("REFLECTIVITY", fPP_PhC, fPhCREFLECTIVITY, 4);
-				PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_1inch_20140620, fPhCEFFICIENCY_1inch_20140620, 43);
+				PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_MCP20inch, fPhCEFFICIENCY_AverageMCP20inch, 43);
         //PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_Ham20inch, fPhCEFFICIENCY_Ham20inch, 43);
         //PhotocathodeMPT_Ham20inch->AddProperty("EFFICIENCY", fPP_PhCQE_Dynode20inch, fPhCEFFICIENCY_Dynode20inch, 43);
 				double PhotocathodeMPTAbsEnergy[2] = {1*eV,15*eV};
