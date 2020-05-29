@@ -69,6 +69,8 @@
 #include "G4UserLimits.hh"
 #include "G4Cerenkov.hh"
 
+
+
 // Constructor /////////////////////////////////////////////////////////////
 B1PhysicsList::B1PhysicsList() : G4VUserPhysicsList() 
 {
@@ -432,7 +434,7 @@ void B1PhysicsList::ConstructEM() {
 // Optical Processes ////////////////////////////////////////////////////////
 #include "G4Scintillation.hh"
 #include "G4OpAbsorption.hh"
-//#include "G4OpRayleigh.hh"
+#include "G4OpRayleigh.hh"
 #include "G4OpBoundaryProcess.hh"
 
 void B1PhysicsList::ConstructOp() 
@@ -441,7 +443,8 @@ void B1PhysicsList::ConstructOp()
 				// Cerenkov process
 		
 				G4Cerenkov* fCerenkovProcess = new G4Cerenkov("Cerenkov");
-				fCerenkovProcess->SetMaxBetaChangePerStep(10.0);
+				//fCerenkovProcess->SetMaxBetaChangePerStep(300.0);
+				fCerenkovProcess->SetMaxNumPhotonsPerStep(300);
 				fCerenkovProcess->SetTrackSecondariesFirst(true);
 
 				// default scintillation process
@@ -470,12 +473,12 @@ void B1PhysicsList::ConstructOp()
 
 				// optical processes
 				G4OpAbsorption* theAbsorptionProcess = new G4OpAbsorption();
-				//  G4OpRayleigh* theRayleighScatteringProcess = new G4OpRayleigh();
+				G4OpRayleigh* theRayleighScatteringProcess = new G4OpRayleigh();
 				G4OpBoundaryProcess* theBoundaryProcess = new G4OpBoundaryProcess();
 				//  theAbsorptionProcess->DumpPhysicsTable();
-				//  theRayleighScatteringProcess->DumpPhysicsTable();
+				//theRayleighScatteringProcess->DumpPhysicsTable();
 				theAbsorptionProcess->SetVerboseLevel(OpVerbLevel);
-				// theRayleighScatteringProcess->SetVerboseLevel(OpVerbLevel);
+				theRayleighScatteringProcess->SetVerboseLevel(OpVerbLevel);
 				theBoundaryProcess->SetVerboseLevel(OpVerbLevel);
 
 				auto particleIterator=GetParticleIterator();
@@ -510,7 +513,7 @@ void B1PhysicsList::ConstructOp()
 
 								if (particleName == "opticalphoton") {
 												pmanager->AddDiscreteProcess(theAbsorptionProcess);
-												//	pmanager->AddDiscreteProcess(theRayleighScatteringProcess);
+												pmanager->AddDiscreteProcess(theRayleighScatteringProcess);
 												pmanager->AddDiscreteProcess(theBoundaryProcess);
 								}
 				}

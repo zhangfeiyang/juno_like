@@ -82,7 +82,7 @@ void B1PmtSD::Initialize(G4HCofThisEvent*) {
 G4bool B1PmtSD::ProcessHits
 (G4Step* aStep, G4TouchableHistory*){
 
-	if(G4UniformRand()>0.7){   
+	if(G4UniformRand()>0.8){   
 		return false;
 	}
 
